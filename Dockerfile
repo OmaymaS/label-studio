@@ -15,8 +15,8 @@ ENV PROJECT_NAME="my_project"
 ENV HOST=0.0.0.0
 ENV PROTOCOL=http://
 # basic auth params
-ENV USERNAME=""
-ENV PASSWORD=""
+ENV USERNAME="admin"
+ENV PASSWORD="admin"
 
 EXPOSE ${PORT}
 
