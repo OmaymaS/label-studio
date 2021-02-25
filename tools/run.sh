@@ -1,3 +1,3 @@
 #!/bin/bash
 
-label-studio start-multi-session 
+label-studio start-multi-session --username ${USERNAME:-""} --password ${PASSWORD:-""} 
